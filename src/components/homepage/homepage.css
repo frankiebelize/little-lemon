@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+header,
+nav,
+main,
+footer {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem 10%;
+  margin: 0;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.call-to-action-hero {
+  background-color: #495e57;
+  color: white;
+  padding: 4rem 10%;
+}
+
+.call-to-action-hero h1 {
+  color: #f4ce14;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.call-to-action-hero h2 {
+  font-size: 2rem;
+  margin-top: 0.25rem;
+}
+
+.call-to-action-hero p {
+  max-width: 420px;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #f4ce14;
+  color: #333333;
+  border: none;
+  border-radius: 16px;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.specials,
+.customer-reviews,
+.chicago {
+  padding: 4rem 10%;
+}
+
+.specials h2,
+.customer-reviews h2,
+.chicago h2 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.specials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.specials-card {
+  background-color: #edefee;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.specials-card h3 {
+  margin-top: 0;
+}
+
+.customer-reviews {
+
+  background-color: #fbdabb;
+}
+
+.chicago p {
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 2rem 10%;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .specials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .call-to-action-hero h1 {
+    font-size: 2.4rem;
+  }
+}

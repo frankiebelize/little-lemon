@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import BookingForm from "./components/bookingpage/bookingForm";
+import BookingForm from "./components/bookingpage/BookingForm";
 
 test("Renders the BookingForm date label", () => {
   const availableTimes = [
