@@ -1,7 +1,6 @@
-import {routes, Route} from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Nav from './Nav';
-import Main from './Main';
 import About from './About';
 import Reservations from './Reservations';
 import OrderOnline from './OrderOnline';
